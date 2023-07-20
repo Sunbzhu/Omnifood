@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css">
+    <title>Omnifood</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+      <img src="img/omnifood-logo.png" alt="LOGO" class="logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">工作流程</a></li>
+          <li><a class="main-nav-link" href="#">餐品展示</a></li>
+          <li><a class="main-nav-link" href="#">用户案例</a></li>
+          <li><a class="main-nav-link" href="#">餐品价格</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">免费试用</a></li>
+        </ul>
+      </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">每天健康餐送到你家门口</h1>
+            <p class="hero-description">
+              每年365天的智能食物订阅,让你再次吃得健康。根据您的个人口味和营养需求量身定制。
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm">开始好好吃饭</a>
+            <a href="#" class="btn btn--outline">了解更多 &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="customer-photo" />
+                <img src="img/customers/customer-2.jpg" alt="customer-photo" />
+                <img src="img/customers/customer-3.jpg" alt="customer-photo" />
+                <img src="img/customers/customer-4.jpg" alt="customer-photo" />
+                <img src="img/customers/customer-5.jpg" alt="customer-photo" />
+                <img src="img/customers/customer-6.jpg" alt="customer-photo" />
+              </div>
+              <p class="delivered-text">
+                去年我们送了<span>250000+</span>份餐品!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img src="img/hero.png" alt="hero-image" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">合作伙伴</h2>
+          <div class="logos">
+            <img src="img/logos/techcrunch.png" alt="品牌logo" />
+            <img src="img/logos/business-insider.png" alt="品牌logo" />
+            <img src="img/logos/forbes.png" alt="品牌logo" />
+            <img src="img/logos/the-new-york-times.png" alt="品牌logo" />
+            <img src="img/logos/usa-today.png" alt="品牌logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how">
+        <div class="container texts-center">
+          <span class="subheading">工作流程</span>
+          <h2 class="heading-secondary">3个简单的步骤制作您每天的健康饮食</h2>
+        </div>
+
+        <div class="container grid grid--2-cols gird--center-v">
+          <!-- 步骤1 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">告诉我们你喜欢什么(不喜欢什么)</h3>
+            <p class="step-description">
+              再也不要浪费时间考虑吃什么了!omniifood
+              AI将为你量身打造100%个性化的每周膳食计划。它能确保你得到你需要的所有营养和维生素，不管你遵循什么饮食!
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/app-screen-1.png"
+              alt="how-it-work image"
+              class="step-img"
+            />
+          </div>
+
+          <!-- 步骤2 -->
+          <div class="step-img-box">
+            <img
+              src="img/app/app-screen-2.png"
+              alt="how-it-work image"
+              class="step-img"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">决定你每周的膳食计划</h3>
+            <p class="step-description">
+              每周一次，批准Omnifood
+              AI为你生成的膳食计划。你可以改变食材，交换整顿饭，甚至添加你自己的食谱。
+            </p>
+          </div>
+
+          <!-- 步骤3 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">在方便的时间用餐</h3>
+            <p class="step-description">
+              镇上最好的厨师每天都会为您烹饪您选择的食物，我们会在您最适合的时候将其送到您的家门口。您可以更改送货时间表和地址，每天!
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="img/app/app-screen-3.png"
+              alt="how-it-work image"
+              class="step-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals">
+        <div class="container texts-center">
+          <span class="subheading">餐品</span>
+          <h2 class="heading-secondary">全能AI从5000 +食谱中选择</h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img src="img/meals/meal-1.jpg" alt="meals" class="meal-img" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">#素食主义者</span>
+              </div>
+              <p class="meal-title">饺子</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>650</strong> 卡路里</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>营养评分 &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> 分 (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img src="img/meals/meal-2.jpg" alt="meals" class="meal-img" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">#素食</span>
+                <span class="tag tag--paled">#经典</span>
+              </div>
+              <p class="meal-title">牛油果沙拉</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>400</strong> 卡路里</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>营养评分 &reg; <strong>92</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> 分 (44)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Omnifood适用任何饮食:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>素食主义者</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>素食者</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>食用鱼肉</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>无麸质</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>不含乳糖</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>酮类</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>古代的</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>低FODMAP</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+                ><span>儿童友好型</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="#" class="link">查看所有菜谱 &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <div class="container-testimonials">
+          <span class="subheading">用户见证</span>
+          <h2 class="heading-secondary">尝试一次，你就会爱上</h2>
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                src="img/customers/dave.jpg"
+                alt="dave photo"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                便宜，健康，美味的饭菜，甚至不必手动订购!感觉真的很神奇。
+              </blockquote>
+              <p class="testimonial-name">&mdash; 戴夫-布赖森</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/ben.jpg"
+                alt="dave photo"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                人工智能算法非常好，每次都为我选择合适的食物。我不用为选择发愁了!
+              </blockquote>
+              <p class="testimonial-name">&mdash; 本·哈德利</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/steve.jpg"
+                alt="dave photo"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                杂粮是救命稻草!我刚开了一家公司，所以没有时间做饭。我现在没有每天的饭菜就活不下去了!
+              </blockquote>
+              <p class="testimonial-name">&mdash; 史蒂夫-米勒</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                src="img/customers/hannah.jpg"
+                alt="dave photo"
+                class="testimonial-img"
+              />
+              <blockquote class="testimonial-text">
+                我为全家人准备了营养食品，这样可以节省很多时间!此外，所有餐品都是有机的，素食的，无塑料。
+              </blockquote>
+              <p class="testimonial-name">&mdash; 汉娜·史密斯</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-1.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-2.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-3.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-4.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-5.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-6.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-7.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-8.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-9.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-10.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-11.jpg" alt="食物照片" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="img/gallery/gallery-12.jpg" alt="食物照片" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing">
+        <div class="container">
+          <span class="subheading">定价</span>
+          <h2 class="heading-secondary">
+            在实惠的情况下保持饮食健康
+          </h2>
+        </div>
+
+
+      <div class="container grid grid--2-cols margin-bottom-md">
+        <div class="princing-plan princing-plan--starter">
+          <header class="plan-header">
+            <p class="plan-name">基础价</p>
+            <p class="plan-price"><span>$</span>399</p>
+            <p class="plan-text">每餐的价格仅需13$</p>
+         </header>
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+              ><span>每天一餐</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+              ><span>订购时间11时至19时</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+              ><span>免费送货</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="close"></ion-icon><span>获得最新的菜谱</span>
+            </li>
+            </li>
+          </ul>
+          <div class="plan-sing-up">
+          <a href="#" class="btn btn--full">Start eating well</a>
+        </div>
+        </div>
+        
+        <div class="princing-plan princing-plan--complete">
+          <header class="plan-header">
+          <p class="plan-name">豪华价</p>
+          <p class="plan-price"><span>$</span>649</p>
+          <p class="plan-text">每餐的价格仅需11$</p>
+        </header>
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+              ><span>每天两餐</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+              ><span>全天时间购餐，不限制时间点！</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+              ><span>免费送货</span>
+            </li>
+
+            <li class="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon
+              ><span>获得最新的食谱</span>
+            </li>
+          </ul>
+          <div class="plan-sing-up">
+          <a href="#" class="btn btn--full">Start eating well</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container grid">
+        <aside class="plan-details">
+          价格包括所有在内的税费。用户可以随时取消。具体包含一下内容：
+        </aside>
+      </div>
+
+
+      <div class="container grid grid--4-cols">
+        <div class="feature">
+          <ion-icon class="feature-icon" name="infinite"></ion-icon>
+          <p class="feature-title">再也不用做饭了</p>
+          <p class="feature-text">我们的餐品订阅覆盖全年365天,甚至包括一些重大节日。无订购时间忧虑！ </p>
+         </div>
+
+         <div class="feature">
+          <ion-icon class="feature-icon" name="nutrition"></ion-icon>
+          <p class="feature-title">本地和有机</p>
+          <p class="feature-text">我们的厨师只使用本地的，新鲜的，有机的产品来准备您的饭菜。</p>
+         </div>
+
+         <div class="feature">
+          <ion-icon class="feature-icon" name="leaf"></ion-icon>
+          <p class="feature-title">绿色环保</p>
+          <p class="feature-text">我们所有的合作伙伴只使用可重复使用的容器来包装您的所有食物。</p>
+         </div>
+
+         <div class="feature">
+          <ion-icon class="feature-icon" name="pause"></ion-icon>
+          <p class="feature-title">随时暂停</p>
+          <p class="feature-text">无论你有任何情况，只要暂停您的订阅，我们将退还未使用的天数。</p>
+         </div>
+      </div>
+    </section>
+
+    <section class="section-cta">
+      <div class="container">
+        <div class="cta">
+        <div class="cta-text-box">
+          <h2 class="heading-secondary">免费享用第一餐！</h2>
+          <p class="cta-text">健康、美味、无忧的饭菜在等着你。从今天开始吃得好。您可以随时取消或暂停。第一顿饭我们请! </p>
+          
+          <form class="cta-form" action="#">
+            <div>
+            <label for="full-name">姓名</label>
+            <input id="full-name" type="text" placeholder="张三丰" required/>
+          </div>
+
+          <div>
+            <label for="email" >邮箱</label>
+            <input id="email" type="email" placeholder="me@example.com" required/>
+          </div>
+
+          <div>
+            <label for="select-where">你从哪里知道我们的？</label>
+            <select id="select-where" required>
+              <option value="">请选择一种方式</option>
+              <option value="friends">朋友或家人介绍</option>
+              <option value="postcast">抖音推荐</option>
+              <option value="ad">节目播报</option>
+              <option value="TikTok">朋友圈广告</option>
+              <option value="others">其它</option>
+            </select>
+          </div>
+            <button class="btn btn--form">提交</button>
+          </form>
+        </div>
+        <div class="cta-img-box" role="img" aria-label="食物"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container grid  grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img src="img/omnifood-logo.png" alt="LOGO" class="logo" />
+            </a>
+
+            <ul class="social-links">
+              <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+              <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+              <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+            </ul>
+
+            <p class="copyright">Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.</p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">关于我们</p>
+          <address class="contacts">
+            <p class="address">加利福尼亚州旧金山哈里森街623号2楼,邮编:94107</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a><br>
+              <a class="footer-link" href="mailto:hello@omnifood.com">hello@omnifood.com</a>
+            </p>
+          </address>
+         
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">账户</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">创建账号</a></li>
+            <li><a class="footer-link" href="#">登录账号</a></li>
+            <li><a class="footer-link"footer-link href="#">IOS app</a></li>
+            <li><a class="footer-link" href="#">Android APP</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">公司</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">关于 Omnifood</a></li>
+            <li><a class="footer-link" href="#">关于企业</a></li>
+            <li><a class="footer-link" href="#">合作伙伴</a></li>
+            <li><a class="footer-link" href="#">职业生涯</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">资源</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">菜单目录</a></li>
+            <li><a class="footer-link" href="#">帮助中心</a></li>
+            <li><a class="footer-link" href="#">隐私条款</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
